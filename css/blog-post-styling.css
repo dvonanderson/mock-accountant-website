@@ -1,0 +1,128 @@
+body {
+	background-color: #fcfcfc;
+	width: 100%;
+}
+
+.row {
+	padding: 0px;
+	margin: 0;
+	border: none;
+}
+
+.blogaboutimg {
+	max-height: 45px !important;
+	max-width: 45px !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.authordate {
+	font-size: 12px !important;
+	color: #7A7A7A;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blogtext h1 {
+	color: #383838;
+	font-size: 27px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 29px;
+}
+
+.blog-content h3 {
+	font-weight: bold;
+	color: #353535;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.blogtext p {
+	color: #444444;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 29px;
+	white-space: normal;
+	padding-left: 25px;
+	padding-right: 15px;
+}
+
+.blogtext li {
+	color: #2b2b2b;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 29px;
+}
+
+.blogtext a {
+	color: #D95E61 !important;
+}
+
+table {
+	color: #4A4A4A !important;
+	font-size: 17px !important;
+	font-family: 'Montserrat', sans-serif !important;
+	line-height: 29px !important;
+}
+
+.blogtext {
+	margin-top: -40px;
+	background-color: #fcfcfc !important;
+}
+
+.blogtext a {
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-color: #ffffff;
+}
+
+.heading h1 {
+	color: #353535 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.banner img {
+	padding-top: 60px;
+}
+
+a:hover {
+	color: #B0B0B0 !important;
+	text-decoration: none;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (max-width: 480px) {
+	
+	.heading h1 {
+		padding-bottom: 60px;
+	}
+	.banner img {
+		width: 80% !important;
+		height: 150px;
+	}
+	.heading h1 {
+		margin-top: 20px;
+	}
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 1024px) {
+
+	.banner img {
+		width: 80% !important;
+	}
+	.heading h1 {
+		margin-top: 20px;
+	}
+	.blogtext p {
+		padding-top: 30px;
+	}
+}

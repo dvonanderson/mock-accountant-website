@@ -1,0 +1,139 @@
+.blog-background {
+	background-size: cover;
+	background-image: url(../images/blog-page-banner.jpg);
+	/*Your Blog Page Bannner Image */
+	height: 350px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-top: -20px;
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.blog-background h2 {
+	padding-top: 130px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: #ffffff !important;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog {
+	background-color: #FFFFFF;
+	max-width: 970px;
+}
+
+.headings {
+	color: #46556D !important;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-post a:hover {
+	color: #CB9C79 !important;
+	text-decoration: none;
+}
+
+.blog-post p {
+	color: #4A4A4A;
+	font-size: 17px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 26px;
+	white-space: normal;
+}
+
+.sidebar-module h4 {
+	color: #46556D;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-sidebar li {
+	list-style: none;
+}
+
+.blog-sidebar a {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-sidebar a:hover {
+	color: #CB9C79 !important;
+}
+
+.list-unstyled img {
+	width: 12%;
+	height: 12%;
+}
+
+.blog {
+	background-color: #FFFFFF;
+	margin-top: 80px;
+}
+
+.read-more {
+	color: #CB9C79 !important;
+	border: 2px solid #CB9C79;
+	padding: 10px;
+}
+
+.glyphicon-chevron-right {
+	color: #CB9C79 !important;
+}
+
+.address {
+	font-size: 12px !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (max-width: 480px) {
+	
+	.blog-background h2 {
+		position: relative;
+		top: 0px;
+		font-size: 35px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 1024px) {
+
+	.blog-background h2 {
+		font-size: 50px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: -20px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: landscape) {
+
+	.blog-background h2 {
+		font-size: 55px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

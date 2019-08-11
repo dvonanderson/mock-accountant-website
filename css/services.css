@@ -1,0 +1,61 @@
+.accounting-services h4 {
+  color: #557081;
+  font-size: 45px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.services {
+  margin-top: -130px;
+  padding-bottom: 60px;
+}
+
+.services a {
+  color: #537184;
+}
+
+.services img {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.services h2 {
+  color: #575557;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+
+.services p {
+  color: #575557;
+  font-size: 18px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.services li {
+  color: #575557;
+  font-size: 18px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.services ul {
+  margin-top: 20px;
+}
+
+.service-conclusion p {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #4c4c4c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 600px) {
+  .accounting-services h4 {
+    font-size: 25px;
+  }

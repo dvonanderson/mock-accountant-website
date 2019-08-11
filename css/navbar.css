@@ -1,0 +1,267 @@
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/*----TOP BANNER STYLING----*/
+
+.consultation {
+  text-align: right;
+  padding-right: 2%;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.consultation a {
+  color: #ffffff !important;
+}
+
+.gold {
+  background-color: #CB9C79;
+  padding: 8px;
+  border: 5px solid #CB9C79;
+}
+
+.gold:hover {
+  text-decoration: none;
+  border: 5px solid #CB9C79;
+  background-color: #ffffff;
+  color: #CB9C79;
+}
+
+.logo {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+/*----NAVBAR STYLING----*/
+
+.navbar {
+  background-color: #537184 !important;
+  border-bottom: none;
+  width: 100%;
+  height: auto;
+}
+
+.icon-bar {
+  background-color: #ffffff !important;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus,
+.navbar-toggle:active,
+.navbar-toggle.active,
+.open>.dropdown-toggle .navbar-toggle {
+  background-color: #537184 !important;
+}
+
+.navbar-toggle:active:focus {
+  background-color: #537184 !important;
+}
+
+#topnavbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav li {
+  padding-right: 35px;
+  padding-left: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #537184;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav a {
+  color: #ffffff !important;
+}
+
+.nav a:hover {
+  
+  background-color: #92a6b6 !important;
+  
+}
+
+
+/*----CONSULTATION-STRIP STYLING----*/
+
+.consultation-strip {
+  background-color: #CB9C79;
+}
+
+.consultation-strip p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.consultation-strip a {
+  color: #ffffff !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.consultation-strip a:hover {
+  text-decoration: none;
+  color: #23313D !important;
+  border: 2px solid #23313D;
+  padding: 10px;
+}
+
+/*----FOOTER SECTION STYLING----*/
+
+footer {
+  padding-bottom: 0 !important;
+  background-color: #527183;
+}
+
+#footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#footer a {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#footer a:hover {
+  color: #CB9C79;
+  text-decoration: none !important;
+}
+
+.footerlinks {
+  padding-bottom: 40px;
+}
+
+.footerlinks a {
+  color: #c8cfd1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.address {
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.copyright {
+  color: #d1d1d1 !important;
+  padding-top: 20px;
+  font-size: 11px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 600px) {
+  
+  .consultation {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .gold:hover {
+    border: 3px solid #CB9C79;
+  }
+  .nav li {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #footer a {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    line-height: 22px;
+  }
+  #footer {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+@media only screen 
+and (min-width: 600px) 
+and (max-width: 1024px) {
+
+  #footer a {
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    line-height: 30px;
+  }
+
+  #footer {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1200px) 
+and (orientation: landscape) {
+
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+    margin-right: 50px;
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+    overflow: visible !important;
+  }
+  .navbar-nav li {
+    float: none !important;
+    text-align: center;
+  }
+  .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}

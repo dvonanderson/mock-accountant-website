@@ -1,0 +1,68 @@
+.testimonial-banner {
+	background-image: url(../images/testimonial-background.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	box-shadow: inset 0 0 1em #111;
+	margin-top: -20px;
+}
+
+#testimonials h3 {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #537184;
+	padding-top: 50px;
+}
+
+#testimonials p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #595959;
+}
+
+.reviewer {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px !important;
+	color: #565656 !important;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#testimonials {
+	background-color: #fcfcfc;
+	padding-bottom: 50px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 600px) {
+	.testimonial-banner {
+		background-image: url(../images/testimonial-background-mobile.jpg);
+		height: 300px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+	#testimonials h3 {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+	.testimonial-banner {
+		background-image: url(../images/testimonial-background-tab.jpg);
+		height: 300px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+}

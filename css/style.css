@@ -1,0 +1,371 @@
+.top-background {
+	background-image: url(../images/accounting-banner-img.jpg);
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
+	margin-top: -20px;
+}
+
+.accounting-intro {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.accounting-intro h1 {
+	color: #537184;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
+.intro {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #5A646B;
+}
+
+#tax-expert {
+	background-color: #F6F4F6;
+	margin-top: 50px;
+}
+
+#tax-expert p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #537184;
+	padding-top: 120px;
+	padding-bottom: 130px;
+	letter-spacing: 1px;
+	line-height: 45px;
+}
+
+.consultations {
+	background-color: #CB9C79;
+}
+
+.consultations p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+}
+
+.free-call {
+	background-color: #92a6b6;
+	margin-top: -20px;
+}
+
+.free-call h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 40px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+.free-call p {
+	padding-bottom: 50px;
+	font-size: 17px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.free-call a {
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0px !important;
+	border: 3px solid #ffffff;
+	padding: 8px 15px 8px 15px;
+	color: #ffffff;
+}
+
+.free-call a:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+	border: 3px solid #CB9C79;
+	background-color: #CB9C79;
+}
+
+.accounting-services {
+	padding-bottom: 90px;
+}
+
+.accounting-services a {
+	color: #537184 !important;
+}
+
+.accounting-services h4 {
+	color: #537184;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.accounting-services h2 {
+	color: #575557;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 80px;
+}
+
+.accounting-services p {
+	color: #575557;
+	font-size: 18px !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.accounting-services li {
+	color: #575557;
+	font-size: 18px !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.accounting-services ul {
+	margin-top: 20px;
+}
+
+.testimonials h4 {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #537184;
+	padding-top: 50px;
+}
+
+.testimonials p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.testimonials {
+	background-image: url(../images/testimonial-background-img.jpg);
+	height:auto;	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.clients {
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.clients img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 100%;
+}
+
+.clients h4 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #537184;
+}
+
+.reviewer {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px !important;
+	color: #565656 !important;
+	font-weight: bold;
+	padding-bottom: 80px;
+}
+
+.read-more {
+	color: #537184;
+	font-size: 15px !important;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+}
+
+/*----ABOUT PAGE STYLES----*/
+
+.about-banner {
+	background-image: url(../images/about-accounting-services-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
+	margin-top: -20px;
+	height: auto;
+	background-attachment: fixed;
+}
+
+.about-banner h2 {
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	font-weight: bold;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.about-description {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #686868;
+	line-height: 30px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+/*----RESOURCES PAGE STYLES----*/
+
+.resources p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #606060;
+}
+
+.resources {
+	padding-bottom: 100px;
+}
+
+.resources h2 {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: #515151;
+	font-weight: bold;
+}
+
+.resources h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #515151;
+	font-weight: bold;
+}
+
+/*----TERMS & CONDITIONS/ PRIVACY POLICY PAGE STYLES----*/
+
+.terms {
+	padding-bottom: 80px;
+}
+
+.terms p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #606060;
+}
+
+.terms h2 {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #515151;
+	font-weight: bold;
+	padding-bottom: 30px;
+	text-decoration: underline;
+}
+
+.terms h3 {
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #515151;
+	font-weight: bold;
+}
+
+.calendar {
+	padding-bottom: 80px;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (max-width: 480px) {
+
+.top-background {
+		
+		height: 250px;
+	}	
+
+.about-banner {
+	background-image: url(../images/about-accounting-services-mobile-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
+	margin-top: -20px;
+	height: auto;
+}
+
+.about-banner h2 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-size:60px;
+	}
+
+.free-call p {
+	font-size: 13px;
+
+}
+
+.free-call a {
+	padding: 8px 5px 8px 5px;
+
+}
+
+.testimonials h4 {
+	font-size: 35px;
+}
+
+.resources p {
+	font-size: 12px;
+}
+
+
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 1024px) {
+
+.top-background {
+		
+	height: 350px;
+}
+
+.about-banner {
+	background-image: url(../images/about-accounting-services-tab-banner.jpg);
+
+}
+
+.about-banner h2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+
+
+.clients img {
+		padding-top: 50px;
+		width: 60%;
+}
+	
+}
